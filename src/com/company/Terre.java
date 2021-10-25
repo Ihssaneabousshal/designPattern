@@ -1,12 +1,12 @@
 package com.company;
 
 public class Terre {
-    private int age;
-    private int population;
+    private long age;
+    private long population;
     private static Terre instance=null;
-    private void Terre(int age,int population){
-        this.age =age;
-        this.population=population;
+    private void Terre(){
+        this.age =50000;
+        this.population=60000;
     }
     public Terre getInstance(){
             if (instance == null)

@@ -8,6 +8,7 @@ public class Client {
         Terre T2 = new Terre().getInstance();
         Terre T3 = new Terre();
         Terre T4 = new Terre().getInstance();
+        T3.afficher();
 
 
     }
